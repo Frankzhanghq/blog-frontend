@@ -30,7 +30,7 @@
                   >TA的主页</a>
                   <br />
                   <img
-                    :src="'http://localhost:1337'+item.node.avatarUrl[0].url"
+                    :src="GRIDSOME_API_URL+item.node.avatarUrl[0].url"
                     style="width: 100%;border-radius:5px;margin-top: 5px"
                   />
                 </el-card>
